@@ -2,18 +2,20 @@
 
 A minimalist Node.js microservice that returns the current UTC timestamp and the client's IP address in JSON format.
 
+### Docker Public image - chethanasv/simple_time_service:latest
+
 ## 🛠️ Setup & Run
 
-### Pull the Docker Image
+### Build the Docker Image
 
 ```bash
-docker pull chethanasv/simple_time_service:latest
+docker build -t simple-time-service .
 ```
 
 ### Run the Docker Image
 
 ```bash
-docker run -d -p 8080:8080 chethanasv/simple_time_service:latest
+docker run -d -p 8080:8080 simple-time-service
 ```
 
 ### Test the output
