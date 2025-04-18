@@ -4,7 +4,7 @@ A minimalist Node.js microservice that returns the current UTC timestamp and the
 
 ### Docker Public image - chethanasv/simple_time_service:latest
 
-## 🛠️ Setup & Run
+## Setup & Run
 
 ### Build the Docker Image
 
@@ -26,7 +26,10 @@ Check http://localhost:8080/
 ![alt text](image.png)
 
 
-### **Steps to Deploy The Architecture uing Terraform**
+## **Steps to Deploy The Architecture using Terraform**
+
+### Architecture Diagram
+![alt text](terraform.png)
 
 1. **Clone the repository**:
    ```bash
