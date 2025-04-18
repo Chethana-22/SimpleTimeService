@@ -34,6 +34,7 @@ Check http://localhost:8080/
 1. **Clone the repository**:
    ```bash
    git clone https://github.com/Chethana-22/SimpleTimeService.git
+   cd SimpleTimeService
    cd terraform
 
 2. **Initialize Terraform**:
@@ -54,3 +55,22 @@ This command generates an execution plan, showing the resources that Terraform w
 
 Type yes when prompted to confirm the resource creation.
 Wait for Terraform to complete provisioning the resources
+
+
+## **Setting Up the CI/CD Pipeline**
+
+
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/Chethana-22/SimpleTimeService.git
+   cd SimpleTimeService
+
+2. **Configure the Secrets**:
+
+3. **Push Changes to Github**:
+   ```bash
+   git add . 
+   git commit -m "ci-cd changes commit message"
+   git push origin main
+
+4. Verify the deployment
